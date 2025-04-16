@@ -1,0 +1,60 @@
+body {
+    font-family: Times New Roman;
+  
+  /*  background-image: url('/Collage.jpg');*/
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    }
+
+.login-form {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 350px;
+  align-items: center;
+  margin: auto;
+    margin-top: 110px;
+    background-color:rgba(0,0,0,0.5) ;
+    box-shadow: inset -5px -5px rgba(0,0,0,0.5);
+    border-radius: 25px;
+    }
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+  margin:20px;
+    width: 80%;
+    padding: 12px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.1);
+    color:white ;
+    font-size:1rem;
+}
+
+button {
+    width: 50%;
+    height: 40px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: inset -3px -3px rgba(0,0,0,0.1);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+     margin-top: 50px;
+    font-size: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+    background-color: rgba(255,255,255,0.4);
+    color: white;
+}
